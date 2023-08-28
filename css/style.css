@@ -77,59 +77,8 @@ header nav .nav-left .register-login-btn a{
 .slider .buttons i:hover{
     color:  rgba(255, 255, 255, 0.4);
 }
-.fade-in {
-    animation: fadeIn ease 5s;
-    -webkit-animation: fadeIn ease 5s;
-    -moz-animation: fadeIn ease 5s;
-    -o-animation: fadeIn ease 5s;
-    -ms-animation: fadeIn ease 5s;
-  }
-  
-  
-  @keyframes fadeIn{
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
-  }
-  
-  @-moz-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
-  }
-  
-  @-webkit-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
-  }
-  
-  @-o-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
-  }
+
+  /* start styling to main */
   .product-sec-new{
     padding: 20px 10px;
     font-size: 1em;
@@ -211,6 +160,80 @@ header nav .nav-left .register-login-btn a{
   .shopping-card .button .left .extend-btn .b-icon{
     color: white;
     padding-top: 3px;
+  }
+  /* second section of main start */
+  .super-offer-sec{
+    padding: 20px;
+    font-size: 1em;
+  }
+  .super-offer-sec .super-offer-box{
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0,0.2);
+    border-radius: 5px;
+    margin: 10px 0px;
+  }
+  .super-offer-sec .super-offer-box .super-title
+  {
+    background-color: #c74c3c;
+    color: white;
+    padding: 8px 30px;
+    display: inline-block;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .super-offer-sec .super-offer-box  .body .img-container{
+    text-align: center;
+    padding: 30px;
+  }
+  .super-offer-sec .super-offer-box  .body .img-container img{
+    width: 100%;
+  }
+  .super-offer-sec .super-offer-box  .body .specificate{
+    padding: 30px 5px;
+  }
+  .super-offer-sec .super-offer-box  .body .specificate .price-row{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+  }
+  .super-offer-sec .super-offer-box  .body .specificate .price{
+    margin-left: 60px;
+    color: #444;
+    font-size: 1.2em;
+  }
+  .super-offer-sec .super-offer-box  .body .specificate .off{
+    color: white;
+    background-color:#c74c3c ;
+    padding: 5px 20px;
+    border-radius: 25px;
+  }
+  .super-offer-sec .super-offer-box  .body .specificate .title{
+    margin: 40px 0px;
+    font-weight: bold;
+    color: #444;
+    font-size: 1.4em;
+  }
+  .super-offer-sec .super-offer-box  .body .specificate .counter-down{
+    border-top: 1px solid rgba(0, 0, 0,0.4);
+    margin: 10px 40px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #444;
+    font-size: 1.5em;
+  }
+  .super-offer-sec .super-offer-box  .body .specificate .remaining-time{
+    color: #777;
+    font-size: 0.8;
+  }
+  .banner{
+    text-align: center;
+    padding: 0px 5px;
+  }
+  .banner img{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0,0.2);
+    width: 90%;
+    height: 350px
   }
   
  
