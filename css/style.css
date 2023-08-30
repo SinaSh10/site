@@ -85,7 +85,7 @@ header nav .nav-left .register-login-btn a{
     display: flex;
     align-items: center;
   }
-  .product-sec-new .shopping-card{
+   .shopping-card{
     text-align: center;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0,0.3);
     margin: 10px 15px;
@@ -235,5 +235,26 @@ header nav .nav-left .register-login-btn a{
     width: 90%;
     height: 350px
   }
-  
+  /* dfbfdbfdb */
  
+.dragble-list img{
+  width: 70% !important ;
+  margin: auto;
+}
+
+.owl-stage-outer{
+  direction: ltr;
+}
+
+.dragble-list .title{
+  padding: 0px 20px;
+  padding-bottom: 20px;
+}
+
+.dragble-list .title span{
+  font-size: 1.2em;
+  color: #444;
+  border-bottom: 1.5px solid #e74c3c;
+}
+
+
