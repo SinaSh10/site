@@ -256,5 +256,50 @@ header nav .nav-left .register-login-btn a{
   color: #444;
   border-bottom: 1.5px solid #e74c3c;
 }
+/* footerr  */
+footer{
+  font-size: 1em;
+  background-color: rgb(248, 165, 165);
+}
+footer .right{
+  padding: 20px;
+}
+footer .right .title{
+  padding: 10px 0px;
+  font-size: 1.2em;
+  color: black;
+}
+footer .right .des{
+  color: #444;
+  line-height: 1.9em;
+  font-size: 0.9em;
 
+}
+footer .left{
+  padding: 40px;
+}
+footer .left .title{
+  padding: 10px 0px;
+  font-size: 1.2em;
+  color: black;
+}
+footer .left .social{
+  display: flex;
+  justify-content: space-around;
+}
+footer .left .social .a{
+  color: white;
+  font-size: 1.4em;
+  margin-top: 20px;
+}
+footer .left .social i{
+  color: black;
+}
+footer .bottom{
+  background-color: #444;
+  color: white;
+  font-size: 0.8em;
+  text-align: center;
+  padding: 15px;
+}
 
