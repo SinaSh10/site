@@ -310,16 +310,23 @@ footer .bottom{
   margin: 10px 15px;
   border-radius: 5px;
   padding: 10px;
-  transform: rotateY(0deg);
+  /* transform: rotateY(0deg); */
+  /* transition: 0.6s; */
   width: 90%;
 
 }
 .shoping-card .img-sec{
   position: relative;
+  
 }
 .shoping-card .img-sec img{
   width: 90%;
   height: 200px;
+  
+  
+  
+  
+
 }
 .shoping-card .img-sec .hot-offer{
   background-color: #c74c3c;
@@ -341,7 +348,7 @@ footer .bottom{
   color: #333;
   margin: 15px;
 }
-.shopping-card .button{
+.shoping-card .button{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -382,9 +389,10 @@ footer .bottom{
   color: white;
   padding-top: 3px;
 }
-.dragble-list .item{
+/* .dragble-list .item{
   perspective: 1000px;
-}
+  
+} */
 .dragble-list .shoping-card, .info{
   position: absolute;
   backface-visibility: hidden;
@@ -398,11 +406,15 @@ footer .bottom{
   margin: 10px 15px;
   padding: 20px;
   width: 100%;
-  height: 100%;
+  height: 100%,
+  
+  
 }
-.dragble-list .item:hover .shoping-card{
+
+/* .dragble-list .item:hover .shoping-card  {
   transform: rotateY(-180deg);
 }
 .dragble-list .item:hover .info{
   transform: rotateY(0deg);
-}
+  
+} */

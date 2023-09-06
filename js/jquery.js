@@ -3,7 +3,7 @@ $(document).ready(function() {
     var owl = $("#owl-product");
    
     owl.owlCarousel({
-        items : 1, //10 items above 1000px browser width
+        items : 9, //10 items above 1000px browser width
         responsive : {
             480 : { items : 1  },
             768 : { items : 2  },
@@ -11,6 +11,11 @@ $(document).ready(function() {
             1200 : { items : 4  },
 
         },
+        loop:true,
+        nav:true,
+        autoplay:true,
+        autoplayTimeout:3000
+
     });
    
 
