@@ -1,0 +1,66 @@
+.login-container{
+    height: 100vh;
+    padding: 30px;
+    background-image: radial-gradient(rgb(17, 17, 86) rgb(88, 88, 164) white);
+}
+.login-box{
+    font-size: 0.8em;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: rgba(85, 71, 114, 0.1);
+    padding: 25px 35px;
+    color: black;
+    margin: 20px 30px;
+}
+.login-box form .input-group{
+    margin: 30px 0px;
+}
+.login-box form .input-group label{
+    display: block;
+}
+.login-box form .input-group input{
+    border: none;
+    border-radius: 20px;
+    background-color: none;
+    border: 2px solid white;
+    margin-top: 20px;
+    padding: 10px;
+    outline: none;
+}
+.login-box form .have-or-not a{
+    color: blue;
+}
+.login-box form .submit-btn-container{
+    text-align: center;
+}
+.login-box .submit-btn-container input{
+    border: none;
+    border-radius: 35px;
+    background-color: rgba(193, 175, 175,0.4);
+    color:black ;
+    padding: 10px 40px;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.login-box .submit-btn-container input:hover{
+    background-color: rgba(193, 175, 175, 0.8);
+}
+.login-box  .social-auth{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    padding-top:  20px; ;
+}
+.login-box .social-auth a{
+    color: rgb(54, 31, 71);
+    font-size: 1.9em;
+}
+.login-container .img-container{
+    display: flex;
+    height: 100%;
+}
+.login-container .img-container img{
+    width: 100%;
+}
