@@ -1,7 +1,7 @@
 .login-container{
     height: 100vh;
     padding: 30px;
-    background:linear-gradient(to right,blue,white);
+    background:linear-gradient(to right,rgb(83, 83, 180),white);
 }
 .login-box{
     font-size: 0.8em;
@@ -36,7 +36,7 @@
 .login-box .submit-btn-container input{
     border: none;
     border-radius: 35px;
-    background-color: rgba(193, 175, 175,0.4);
+    background-color: rgba(193, 175, 175,0.2);
     color:black ;
     padding: 10px 40px;
     font-size: 1.4em;
@@ -44,7 +44,7 @@
     cursor: pointer;
 }
 .login-box .submit-btn-container input:hover{
-    background-color: rgba(193, 175, 175, 0.8);
+    background-color: rgba(193, 175, 175, 0.9);
 }
 .login-box  .social-auth{
     display: flex;

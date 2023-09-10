@@ -38,7 +38,7 @@
 .submit-btn-container input{
      border: none;
     border-radius: 35px;
-    background-color: rgba(193, 175, 175,0.4);
+    background-color: rgba(193, 175, 175,0.2);
     color:black ;
     padding: 10px 40px;
     font-size: 1.4em;
@@ -46,7 +46,7 @@
     cursor: pointer;
 }
 .submit-btn-container input:hover{
-    background-color: rgba(193, 175, 175, 0.8);
+    background-color: rgba(193, 175, 175, 0.9);
 }
 .social-icon{
      display: flex;
